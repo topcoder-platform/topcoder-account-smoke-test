@@ -27,14 +27,14 @@ jobs:
           background: true    
       - run: # run tests
           name: Execute Smoke Test
-          command: echo $email 
+          command: npm test
       - run: # For TestQuality
           name: TestQuality Login/Upload file to Test TestQuality Server
           command: |
             sudo chmod 755 testquality-linux
-            ./testquality-linux login drasticdpk@gmail.com Testquality@100 --save
-            ./testquality-linux upload_test_run junitresults-TopcoderRegistrationPageTests.xml --project_name='protractor-jasmine-typescript' --plan_name='Smoke Test'
-            ./testquality-linux upload_test_run junitresults-TopcoderRegistrationPageTests.xml --project_name='protractor-jasmine-typescript' --plan_name='Smoke Test'
+            ./testquality-linux login $EMAIL $PASSWORD --save
+            ./testquality-linux upload_test_run junitresults-TopcoderRegistrationPageTests.xml --project_name='topcoder-account-smoke-test' --plan_name='Smoke Test'
+            ./testquality-linux upload_test_run junitresults-TopcoderRegistrationPageTests.xml --project_name='topcoder-account-smoke-test' --plan_name='Smoke Test'
           when: always
 
    
