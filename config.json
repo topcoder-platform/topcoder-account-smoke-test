@@ -1,0 +1,36 @@
+{
+    "registration": {
+        "email": "e20190928114001@gmail.com",
+        "username": "e20190928114001",
+        "password": "Password@123",
+        "authLink": "https://api.topcoder-dev.com/pub/activation.html?code=13JI5USHR21&retUrl=https://www.topcoder-dev.com/settings/profile",
+        "Terms": "http://www.topcoder.com/community/how-it-works/terms/",
+        "PrivacyPolicy": "http://www.topcoder.com/community/how-it-works/privacy-policy/"
+    },
+    "login": {
+        "email": "e20190928114000@gmail.com",
+        "username": "e2e20190909",
+        "password": "Password@123",
+        "PrivacyPolicy" : "https://www.topcoder.com/community/how-it-works/privacy-policy/",
+        "google": {
+            "username": "e20190928114001@gmail.com",
+            "password": "Password@123"
+        },
+        "github": {
+            "username": "abhikopu+test1@gmail.com",
+            "password": "mancoolgunda@123"
+        },
+        "facebook": {
+            "username": "",
+            "password": ""
+        },
+        "twitter": {
+            "username": "",
+            "password": ""
+        },
+        "forgotPassword": {
+            "email": "e20190928114004@gmail.com",
+            "password": "Password@123"
+        }
+    }
+}
