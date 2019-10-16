@@ -33,6 +33,7 @@ jobs:
           command: |
             sudo chmod 755 testquality-linux
             ./testquality-linux login $EMAIL $PASSWORD --save
+            ./testquality-linux upload_test_run test-results/junitresults-TopcoderRegistrationPageTests.xml --project_name='topcoder-account-smoke-test' --plan_name='Smoke 
             ./testquality-linux upload_test_run test-results/junitresults-TopcoderLoginPageTests.xml --project_name='topcoder-account-smoke-test' --plan_name='Smoke Test'
           when: always
 
