@@ -38,7 +38,7 @@ As of now, the tests are running in headless mode. To view the actual chrom brow
   - E2E test added covering the whole registration flow, by automatically reading the "activation link" from the entered registration email and activating the account using the actual "activation link".
   - E2E test added covering the whole forgot password flow, by automatically reading the "reset password link" from the entered emailId and changing the password using the above link.
   - E2E test added of logging in using Google and Github accounts, by entering actual "Google/Github" credentials and waiting for popup to close along with checking redirection to dashboard.
-  - Along with Junit XML Reporter, Jasmine HTML reporter has also been added for convenience.
+  - Along with Junit XML Reporter, Jasmine HTML reporter has also been added for convenience. 
 
 Note:
 - Twitter login could have also been covered in similar way but there is no way to register a Twitter account initially, on registration page.
