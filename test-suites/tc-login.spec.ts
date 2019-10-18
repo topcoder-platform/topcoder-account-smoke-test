@@ -36,7 +36,7 @@ describe('Topcoder Login Page Tests: ', () => {
         await LoginPageHelper.waitForLoginSuccess();
     });
 
-    it('should verify user is able to reset the password successfully using "Forgot Password" option', async () => {
+    xit('should verify user is able to reset the password successfully using "Forgot Password" option', async () => {
         await LoginPageHelper.get();
         await LoginPageHelper.verifyForgotPasswordFunctionality();
     });

@@ -27,7 +27,7 @@ describe('Topcoder Registration Page Tests: ', () => {
         await RegistrationPageHelper.verifyConfirmationLink();
     });
 
-    it('should verify user is able to successfully register by retrieving confirmation mail from email inbox', async () => {
+    xit('should verify user is able to successfully register by retrieving confirmation mail from email inbox', async () => {
         await RegistrationPageHelper.get();
         await RegistrationPageHelper.waitForRegistrationForm();
         await RegistrationPageHelper.fillRegistrationForm(RegistrationPageHelper.generateRandomEmail());
