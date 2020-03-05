@@ -46,4 +46,4 @@ Note:
 #### Configuration details:
 - config.json holds the data level configuration, like email credentials, confirmation link.
 In case registration/forgotPassword account credentials are changed, please ensure that "Less secure apps" option is turned on (https://www.google.com/settings/security/lesssecureapps)
-- conf.ts holds the application configuration, like jasmine reporters to be configured, specs to be run etc.
+- conf.ts holds the application configuration, like jasmine reporters to be configured, specs to be run etc. 
